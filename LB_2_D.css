@@ -1,0 +1,44 @@
+body {
+    background-color: powderblue;
+    }
+
+
+#top {
+        background-color: rgb(108, 217, 250);
+        padding: 35px
+    }
+    
+.introduction {
+        color: rgb(0, 0, 136);
+        font-size: 20px;
+    }
+
+.history {
+    color: rgb(13, 0, 190);
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.image{
+    float: right; /* Обтекание по правому краю */
+    border: 1px solid black; /* Параметры рамки */
+    padding: 5px; /* Поля вокруг текста */
+    margin-right: 10px; 
+}
+
+.info {
+    color: rgb(7, 0, 99);
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input:focus:required:invalid {
+    background: rgb(255, 104, 116) 379px 3px no-repeat;
+}
+
+  input:required:valid {
+    background-color: rgb(191, 250, 183);
+    background-position: 379px -61px;
+  }
+
+   
